@@ -1,1 +1,1 @@
-docker exec -it ollama ollama run $1
+podman exec -it ollama ollama run $1

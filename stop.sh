@@ -1,2 +1,2 @@
-id=$(docker inspect --format="{{.Id}}" ollama)
-docker container rm $id --force
+id=$(podman inspect --format="{{.Id}}" ollama)
+podman container rm $id --force
